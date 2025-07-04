@@ -1,108 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IM REPARACIONES</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #111;
-            color: #f1f1f1;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #222;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        section {
-            padding: 20px;
-        }
-        .servicios h2,
-        .contacto h2 {
-            border-bottom: 2px solid #f1f1f1;
-            padding-bottom: 10px;
-        }
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        .enlaces a {
-            display: inline-block;
-            margin: 10px 10px 0 0;
-            padding: 10px 15px;
-            background: #1e90ff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #222;
-            margin-top: 30px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tu Página</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 10px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .links a {
+      text-decoration: none;
+      background: #25d366;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .links a.maps {
+      background: #4285f4;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>IM REPARACIONES</h1>
-        <p>GENERAL CONESA (RÍO NEGRO)</p>
-    </header>
+  <div class="container">
+    <!-- Reemplazá estos nombres con los tuyos reales -->
+    <img src="imagen1.jpg" alt="Imagen 1" />
+    <img src="imagen2.jpg" alt="Imagen 2" />
+    <img src="imagen3.jpg" alt="Imagen 3" />
 
-    <section class="servicios">
-        <h2>Servicios</h2>
-        <ul>
-            <li><strong>01 ARENADOS</strong> – Trabajos de arenado</li>
-            <li><strong>02 REPARACIONES GENERALES</strong>
-                <ul>
-                    <li>Venta y colocación de caños de escape</li>
-                    <li>Venta y colocación de parabrisas</li>
-                    <li>Reparación de aires acondicionados</li>
-                    <li>Reparación de chapa y pintura</li>
-                </ul>
-            </li>
-            <li><strong>03 ACCESORIOS</strong>
-                <ul>
-                    <li>Barras antivuelco</li>
-                    <li>Defensas</li>
-                    <li>Lonas</li>
-                    <li>Estribos</li>
-                    <li>Enganches</li>
-                </ul>
-            </li>
-            <li><strong>04 POLARIZADOS</strong></li>
-        </ul>
-    </section>
-
-    <section class="contacto">
-        <h2>Contacto</h2>
-        <p><strong>Dirección:</strong> Las Heras 241, General Conesa, Río Negro</p>
-        <p><strong>Teléfono:</strong> +54 9 2920 49-8103</p>
-        <p><strong>Email:</strong> <a href="mailto:ceromalaspina@yahoo.com.ar" style="color:#1e90ff;">ceromalaspina@yahoo.com.ar</a></p>
-        <p><strong>Horarios:</strong><br>
-            Lunes a Viernes<br>
-            Mañana: 8:00 a 12:00 hs<br>
-            Tarde: 15:00 a 19:00 hs</p>
-
-        <div class="enlaces">
-            <a href="https://wa.link/sw2tv1" target="_blank">Pedir presupuesto (WhatsApp)</a>
-            <a href="https://maps.app.goo.gl/rQWwJHMBDhv21cgu5" target="_blank">Ver en Google Maps</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>© IM Reparaciones - General Conesa, Río Negro</p>
-    </footer>
+    <div class="links">
+      <a href="https://wa.link/sw2tv1" target="_blank">WhatsApp</a>
+      <a href="https://maps.app.goo.gl/rQWwJHMBDhv21cgu5" target="_blank" class="maps">Google Maps</a>
+    </div>
+  </div>
 </body>
 </html>
